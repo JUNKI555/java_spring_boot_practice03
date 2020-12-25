@@ -1,5 +1,63 @@
 # Java Spring Boot Practice 03
 
 ## Web API EndPoint
+- curl http://localhost:8080 -X GET
+- curl http://localhost:8080 -X POST -H "Content-Type:application/json" -d '{ "name":"foo" }'
+- curl http://localhost:8080/count -X GET
+- curl http://localhost:8080/countoverfive -X GET
 
 ## Reference sources
+- docker-compose 下で Java + Spring Boot + PostgreSQL (Spring Data JDBC編) | 北山淳也 | zenn
+  - https://zenn.dev/junki555/articles/2d65f828051d85
+- OpenJDK | DockerHub
+  - https://hub.docker.com/_/openjdk
+- JDK Project Releases | OpenJDK
+  - http://openjdk.java.net/projects/jdk/
+- postgres | DockerHub
+  - https://hub.docker.com/_/postgres
+- Adminer | DockerHub
+  - https://hub.docker.com/_/adminer
+- Spring Initializr
+  - https://start.spring.io/
+- Spring Data JDBC とは？ | Spring リファレンスドキュメント
+  - https://spring.pleiades.io/projects/spring-data-jdbc#overview
+- Java ORマッパー選定のポイント | SlideShare
+  - https://www.slideshare.net/masatoshitada7/java-or-jsug
+- Spring Boot アプリケーションプロパティ設定一覧 - Spring リファレンス
+  - https://spring.pleiades.io/spring-boot/docs/current/reference/html/appendix-application-properties.html
+- Lombok 使い方メモ | Qiita
+  - https://qiita.com/opengl-8080/items/671ffd4bf84fe5e32557
+- Lombok @Data | 覚えたら書く
+  - https://blog.y-yuki.net/entry/2016/09/29/000000
+- 劇的にコード量を減らせるLombok | Java好き
+  - https://javazuki.com/articles/lombok-introduction.html
+- Java アノテーションとは？ | Qiita
+  - https://qiita.com/ksj555/items/af174b803b323b09785e
+- spring-data-jdbc/Table.java at master | spring-projects/spring-data-jdbc | GitHub
+  - https://github.com/spring-projects/spring-data-jdbc/blob/master/spring-data-relational/src/main/java/org/- springframework/data/relational/core/mapping/Table.java
+- 【Spring】@Autowired と @Component を使用した DI の基本 | 山崎屋の技術メモ
+  - https://www.shookuro.com/entry/2016/08/09/175801
+- Spring MVC コントローラの引数 | Qiita
+  - https://qiita.com/MizoguchiKenji/items/2a041f3a3eb13274e55c
+- @PostMapping and @RequestBody Example in Spring MVC | Apps Developer Blog
+  - https://www.appsdeveloperblog.com/postmapping-requestbody-spring-mvc/
+- Spring Data JDBC | Spring リファレンスドキュメント
+  - https://spring.pleiades.io/spring-data/jdbc/docs/current/reference/html/#jdbc.why
+  - https://spring.pleiades.io/spring-data/jdbc/docs/current/reference/html/#repositories.core-concepts
+- Spring Bootキャンプ：Spring Boot + Spring Data JDBC編 | Qiita
+  - https://qiita.com/yoshikawaa/items/c25715df81ba0d18a74f
+- Spring Data JDBCの使い方メモ | Qiita
+  - https://qiita.com/dkurata38/items/33e43b6cfc6f2f2bb393
+- 【今更ながらSpring BootでWEB開発 #5】データベースの接続 | bitBlog
+  - Repository ではなく Dao を用いた Spring Data JDBC についての記述
+  - https://b1tblog.com/2020/02/03/spring-boot-5/
+- Spring BootでのDBアクセス方法(JDBC、JPA、MyBatis)について | Enjoy*Study
+  - https://blog.enjoyxstudy.com/entry/2016/12/26/000000
+- Introduction to Spring Data JDBC | Baeldung
+  - https://www.baeldung.com/spring-data-jdbc-intro
+- Azure Database for PostgreSQL で Spring Data JDBC を使用する | Microsoft Docs
+  - https://docs.microsoft.com/ja-jp/azure/developer/java/spring-framework/- configure-spring-data-jdbc-with-azure-postgresql
+- Spring Data JDBC 1.0.0.BUILD-SNAPSHOT(-> 1.0.0.RELEASE)を試してみた | Qiita
+  - https://qiita.com/kazuki43zoo/items/bd63d28dc2348aa21719
+- spring-boot-starter-data-jdbc(2.1.0.BUILD-SNAPSHOT)を試す | Qiita
+  - https://qiita.com/kazuki43zoo/items/01cec9197820af42f6b1
